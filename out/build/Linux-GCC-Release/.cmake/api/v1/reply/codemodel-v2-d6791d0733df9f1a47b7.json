@@ -1,0 +1,59 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "LinuxCalculator",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "LinuxCalculator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LinuxCalculator-RelWithDebInfo-fe38421855c1ce7f9c45.json",
+					"name" : "LinuxCalculator",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/olegi/.vs/LinuxCalculator/15371ec6-4125-44ff-a6bf-e4490600dafa/out/build/Linux-GCC-Release",
+		"source" : "/home/olegi/.vs/LinuxCalculator/15371ec6-4125-44ff-a6bf-e4490600dafa/src"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

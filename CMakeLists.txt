@@ -1,0 +1,20 @@
+﻿# CMakeList.txt: проект CMake для LinuxCalculator; включите исходный код и определения,
+# укажите здесь логику для конкретного проекта.
+#
+cmake_minimum_required (VERSION 3.8)
+
+project ("LinuxCalculator")
+
+# Добавьте источник в исполняемый файл этого проекта.
+add_executable (LinuxCalculator "LinuxCalculator.cpp" "LinuxCalculator.h" "main.cpp")
+
+
+#####################
+
+enable_testing()
+
+add_executable(TestCalculator TestCalculator.cpp)
+
+add_test(Tester TestCalculator)
+
+# TODO: Добавьте тесты и целевые объекты, если это необходимо.

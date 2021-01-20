@@ -1,0 +1,16 @@
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "configurations": [
+    {
+      "type": "cppgdb",
+      "name": "LinuxCalculatorDebug",
+      "project": "CMakeLists.txt",
+      "projectTarget": "",
+      "comment": "Learn how to configure remote debugging. See here for more info http://aka.ms/vslinuxdebug",
+      "debuggerConfiguration": "gdb",
+      "args": [],
+      "env": {}
+    }
+  ]
+}
